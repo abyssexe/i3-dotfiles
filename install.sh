@@ -19,4 +19,4 @@ sudo apt install rofi i3 picom btop polybar feh
 
 # install dotfiles
 clear && echo "installing dotfiles" && sleep 2 
-cp -r config/* ~/.config/ && cp -r local/share/* ~/.local/share/ && cp -r wallpapers ~/Pictures/
+cp -r config/* ~/.config/ && cp -r local/share/* ~/.local/share/ && mkdir -p ~/.fonts && cp -r fonts/* ~/.fonts/ && mkdir -p ~/Pictures/wallpapers && cp -r wallpapers/* ~/Pictures/wallpapers/
